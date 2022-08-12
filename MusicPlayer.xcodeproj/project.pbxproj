@@ -13,6 +13,8 @@
 		55DCC5E5289D40C10094F8CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DCC5E3289D40C10094F8CE /* Main.storyboard */; };
 		55DCC5E7289D40C80094F8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DCC5E6289D40C80094F8CE /* Assets.xcassets */; };
 		55DCC5EA289D40C80094F8CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DCC5E8289D40C80094F8CE /* LaunchScreen.storyboard */; };
+		55DCC5F2289D431B0094F8CE /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DCC5F1289D431B0094F8CE /* PlayerViewController.swift */; };
+		55DCC5F4289E4D3B0094F8CE /* morg12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55DCC5F3289E4D3B0094F8CE /* morg12.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		55DCC5E6289D40C80094F8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DCC5E9289D40C80094F8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55DCC5EB289D40C80094F8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DCC5F1289D431B0094F8CE /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		55DCC5F3289E4D3B0094F8CE /* morg12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morg12.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				55DCC5DF289D40C10094F8CE /* SceneDelegate.swift */,
 				55DCC5E1289D40C10094F8CE /* ViewController.swift */,
 				55DCC5E3289D40C10094F8CE /* Main.storyboard */,
+				55DCC5F1289D431B0094F8CE /* PlayerViewController.swift */,
 				55DCC5E6289D40C80094F8CE /* Assets.xcassets */,
 				55DCC5E8289D40C80094F8CE /* LaunchScreen.storyboard */,
 				55DCC5EB289D40C80094F8CE /* Info.plist */,
+				55DCC5F3289E4D3B0094F8CE /* morg12.mp3 */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DCC5F4289E4D3B0094F8CE /* morg12.mp3 in Resources */,
 				55DCC5EA289D40C80094F8CE /* LaunchScreen.storyboard in Resources */,
 				55DCC5E7289D40C80094F8CE /* Assets.xcassets in Resources */,
 				55DCC5E5289D40C10094F8CE /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DCC5E2289D40C10094F8CE /* ViewController.swift in Sources */,
+				55DCC5F2289D431B0094F8CE /* PlayerViewController.swift in Sources */,
 				55DCC5DE289D40C10094F8CE /* AppDelegate.swift in Sources */,
 				55DCC5E0289D40C10094F8CE /* SceneDelegate.swift in Sources */,
 			);
